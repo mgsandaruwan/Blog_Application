@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "Title": "London",
+    "Category": "Travel",
+    "ImageUrl": "/images/hero.jpg",
+    "Content": "\uD83C\uDF0D Travel Guide to London: Everything You Need to Know Before You Visit\r\n\r\nLondon is a city where classic architecture meets modern energy \u2014 iconic landmarks, world-class museums, cozy pubs, royal palaces, and markets full of flavor. Whether you\u0027re visiting for a weekend or a longer adventure, London has something for every traveler."
+  },
+  {
+    "Id": 2,
+    "Title": "London food",
+    "Category": "Travel",
+    "ImageUrl": "/images/food.jpg",
+    "Content": "\uD83D\uDEB6 Suggested 3-Day Itinerary\r\nDay 1: Classic London\r\n\r\nWestminster \u2192 Big Ben \u2192 London Eye\r\n\r\nWalk the Thames River Path\r\n\r\nDinner in Covent Garden\r\n\r\nDay 2: Culture \u002B Markets\r\n\r\nBritish Museum (free)\r\n\r\nLunch at Borough Market\r\n\r\nVisit Tower Bridge\r\n\r\nEvening river cruise\r\n\r\nDay 3: Royal \u0026 Relaxed\r\n\r\nBuckingham Palace\r\n\r\nSt. James\u2019s Park walk\r\n\r\nOxford Street / Soho shopping\r\n\r\nLondon pub dinner\r\n\r\n\uD83C\uDF7D\uFE0F What to Eat\r\n\r\nFish and Chips\r\n\r\nSunday Roast\r\n\r\nAfternoon Tea\r\n\r\nFull English Breakfast"
+  },
+  {
+    "Id": 3,
+    "Title": "cricket World Cup",
+    "Category": "Sports",
+    "ImageUrl": "/images/sport.jpg",
+    "Content": "\uD83C\uDFCF Cricket World Cup Blog: A Complete Guide for Fans Around the World\r\n\r\nCricket is more than just a sport \u2014 it\u2019s emotion, passion, and national pride. And no event captures that better than the Cricket World Cup. Held every four years, this global tournament brings together the best cricket teams competing for the ultimate title: World Champions.\r\n\r\nWhether you\u2019re a long-time cricket lover or someone new to the game, here is everything you need to know to enjoy the World Cup like a true fan.\r\n\r\n\uD83C\uDF0D What is the Cricket World Cup?\r\n\r\nThe Cricket World Cup is an international championship organized by the ICC (International Cricket Council). It features matches played in the One Day International (ODI) format, where each team plays 50 overs.\r\n\r\nFirst tournament: 1975\r\n\r\nCurrent format: Round-robin \u002B Knockouts\r\n\r\nMost successful team: Australia (5\u002B titles)"
+  }
+]

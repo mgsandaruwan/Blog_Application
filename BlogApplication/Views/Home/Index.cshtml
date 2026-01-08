@@ -1,0 +1,29 @@
+﻿@model Dictionary<string, List<BlogApplication.Models.BlogPost>>
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container my-4">
+    <h1 class="text-center mb-5 fw-bold">All Blog Posts</h1>
+
+    @foreach (var category in Model)
+    {
+        <h2 class="mt-4 mb-3 text-primary border-bottom border-3 border-secondary pb-2">@category.Key</h2>
+        <div class="row">
+            @foreach (var post in category.Value)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="@post.ImageUrl" class="card-img-top" alt="@post.Title">
+                        <div class="card-body">
+                            <h5 class="card-title">@post.Title</h5>
+                            <p class="card-text">@post.Content.Substring(0, Math.Min(80, post.Content.Length))...</p>
+                            <a href="/Home/ReadPost/@post.Id" class="btn btn-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
