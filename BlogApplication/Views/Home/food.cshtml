@@ -1,0 +1,31 @@
+﻿@model List<BlogApplication.Models.BlogPost>
+@{
+    ViewData["Title"] = "Agriculture";
+}
+
+<h2 class="fw-bold mb-4 text-center">Agriculture Blogs</h2>
+
+@if (!Model.Any())
+{
+    <p class="text-center text-muted">No Agriculture blogs yet.</p>
+}
+else
+{
+    <div class="row g-4">
+        @foreach (var post in Model)
+        {
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="@post.ImageUrl" class="card-img-top" alt="@post.Title">
+                    <div class="card-body">
+                        <h5 class="card-title">@post.Title</h5>
+                        <p class="card-text text-muted">
+                            @(post.Content.Length > 80 ? post.Content.Substring(0, 80) + "..." : post.Content)
+                        </p>
+                        <a href="/Home/ReadPost/@post.Id" class="btn btn-primary btn-sm">Read More</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
